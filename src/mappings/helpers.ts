@@ -1,9 +1,9 @@
 /* eslint-disable prefer-const */
 import { BigInt, BigDecimal, Address } from '@graphprotocol/graph-ts'
-import { ERC20 } from '../types/Factory/ERC20'
-import { ERC20SymbolBytes } from '../types/Factory/ERC20SymbolBytes'
-import { ERC20NameBytes } from '../types/Factory/ERC20NameBytes'
-import { Factory as FactoryContract } from '../types/templates/Pair/Factory'
+import { ERC20 } from '../../generated/Factory/ERC20'
+import { ERC20SymbolBytes } from '../../generated/Factory/ERC20SymbolBytes'
+import { ERC20NameBytes } from '../../generated/Factory/ERC20NameBytes'
+import { Factory as FactoryContract } from '../../generated/templates/Pair/Factory'
 
 export const ADDRESS_ZERO = '0x0000000000000000000000000000000000000000'
 export const FACTORY_ADDRESS = '0x5757371414417b8C6CAad45bAeF941aBc7d3Ab32'

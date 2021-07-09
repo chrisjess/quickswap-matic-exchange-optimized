@@ -1,5 +1,5 @@
 /* eslint-disable prefer-const */
-import { Pair, Token, Bundle } from '../types/schema'
+import { Pair, Token, Bundle } from '../../generated/schema'
 import { BigDecimal } from '@graphprotocol/graph-ts/index'
 import { ZERO_BD, ONE_BD } from './helpers'
 

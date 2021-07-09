@@ -5,8 +5,8 @@ import {
   Token,
   UniswapFactory,
   Bundle
-} from '../types/schema'
-import { Pair as PairContract, Mint, Burn, Swap, Transfer, Sync } from '../types/templates/Pair/Pair'
+} from '../../generated/schema'
+import { Pair as PairContract, Mint, Burn, Swap, Transfer, Sync } from '../../generated/templates/Pair/Pair'
 import { updatePairDayData, updateTokenDayData, updateUniswapDayData } from './dayUpdates'
 import { getEthPriceInUSD, findEthPerToken, getTrackedVolumeUSD, getTrackedLiquidityUSD } from './pricing'
 import {
